@@ -58,8 +58,8 @@ payload:
   - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
   - DOMAIN,p-bstarstatic.akamaized.net,DRECT
   - DOMAIN,p.bstarstatic.com
-  - DOMAIN,upos-bstar-mirrorakam.akamaized.net,DRECT
-  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,DRECT
+  - DOMAIN,upos-bstar-mirrorakam.akamaized.net,DIRECT
+  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net,DIRECT
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -93,9 +93,9 @@ payload:
   - DOMAIN-SUFFIX,biliimg.com
   - DOMAIN-SUFFIX,biliintl.com
   - DOMAIN-SUFFIX,biliplus.com
-  - DOMAIN-SUFFIX,bilivideo.cn,DRECT
-  - DOMAIN-SUFFIX,bilivideo.com,DRECT
-  - DOMAIN-SUFFIX,bilivideo.net,DRECT
+  - DOMAIN-SUFFIX,bilivideo.cn,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.net,DIRECT
   - DOMAIN-SUFFIX,corari.com
   - DOMAIN-SUFFIX,dyhgames.com
   - DOMAIN-SUFFIX,hdslb.com
@@ -108,7 +108,7 @@ payload:
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DRECT
+  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net,DIRECT
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
   - IP-CIDR,106.75.74.76/32
