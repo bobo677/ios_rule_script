@@ -58,8 +58,6 @@ payload:
   - DOMAIN,4go41hcjtgazdoctqge4o.ourdvsss.com
   - DOMAIN,p-bstarstatic.akamaized.net
   - DOMAIN,p.bstarstatic.com
-  - DOMAIN,upos-bstar-mirrorakam.akamaized.net
-  - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -105,7 +103,6 @@ payload:
   - DOMAIN-SUFFIX,mincdn.com
   - DOMAIN-SUFFIX,sharejoytech.com
   - DOMAIN-SUFFIX,smtcdns.net
-  - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,uposdash-302-bilivideo.yfcdn.net
   - DOMAIN-SUFFIX,yo9.com
   - IP-CIDR,106.75.74.76/32
