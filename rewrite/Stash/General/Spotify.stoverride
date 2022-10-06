@@ -1,4 +1,4 @@
-name:Spotify Premium
+name: Spotify Premium
 desc=: 部分解锁premium,建议重新登录,音质不能设置为超高
 
 http:
@@ -10,7 +10,7 @@ http:
       type: response
       require-body: true
       timeout: 10
-      argument: 
+      argument:
     - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
       name: spotify-proto
       type: response
