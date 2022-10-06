@@ -1,0 +1,26 @@
+name:Spotify Premium
+desc=: 部分解锁premium,建议重新登录,音质不能设置为超高
+
+http:
+  mitm:
+    - "spclient.wg.spotify.com"
+  script:
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/
+        name: spotify-lyric
+        type: response
+        requires-body: true
+        timeout: 10
+        argument:
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+        name: spotify-proto
+        type: response
+        requires-body: true
+        timeout: 10
+
+script-providers:
+  spotify-lyric:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+    interval: 86400
+  spotify-proto:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+    interval: 86400
