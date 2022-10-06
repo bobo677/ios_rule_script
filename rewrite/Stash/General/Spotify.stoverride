@@ -10,8 +10,7 @@ http:
     type: response
     requires-body: true
     timeout: 10
-    tag: Spotify歌词翻译
-    argument: appid=111&securityKey=xxx
+    argument: 
     - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
     name: spotify-proto
     type: response
